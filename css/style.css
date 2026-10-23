@@ -1048,7 +1048,6 @@ footer {
   }
 }
 
-
 .gallery-preview-frame {
   position: relative;
   width: 100%;
@@ -1069,4 +1068,21 @@ footer {
   .gallery-preview-frame {
     height: 240px;
   }
+}
+
+.webdev-project-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.webdev-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.webdev-card-body .project-button {
+  margin-top: auto;
+  align-self: flex-start;
 }
